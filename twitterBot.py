@@ -7,3 +7,4 @@ auth = tweepy.OAuthHandler(user_key, user_secret_key)
 auth.set_access_token(user_token, user_secret_token)
 
 api = tweepy.API(auth)
+api.update_status("HELLLLOOOO IS THIS WORKING?")
